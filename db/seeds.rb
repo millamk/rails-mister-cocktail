@@ -8,6 +8,8 @@
 
 puts 'Cleaning the database...'
 Ingredient.destroy_all
+Cocktail.destroy_all
+Dose.destroy_all
 
 puts 'Creating ingredients'
 
